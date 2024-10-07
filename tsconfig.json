@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // O el target que prefieras
+    "module": "ESNext", // Para módulos ES
+    "outDir": "./dist", // Carpeta donde se generan los archivos .js
+    "rootDir": "./src", // Carpeta donde están tus archivos .ts
+    "strict": true
+  },
+  "include": ["src/**/*.ts"], // Incluye todos los archivos .ts
+  "exclude": ["node_modules"] // Excluye node_modules
+}
